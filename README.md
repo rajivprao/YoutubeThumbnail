@@ -23,7 +23,8 @@ Automated Validation Loop
 | Pillow | Image processing |
 | python-dotenv | Environment management |
 
-**Validation Workflow**
+
+## Validation Workflow
 
 The validator agent checks:
 - brightness
