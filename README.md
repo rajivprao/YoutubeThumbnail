@@ -1,3 +1,4 @@
+## YouTube Thumbnail Generator
 An intelligent, stateful agentic pipeline built with **LangGraph**.
 
 The system automatically:
@@ -6,14 +7,12 @@ The system automatically:
 - critiques failures
 - retries with improved prompts
 
-- **Automated Validation Loop**
+Automated Validation Loop
   - Vision-based thumbnail critique
   - Detects dark or low-energy outputs
   - Triggers retry refinement loop
  
----
 
-## Key Features
 ## Core Libraries
 
 | Library | Purpose |
@@ -23,10 +22,8 @@ The system automatically:
 | HuggingFace Hub | FLUX image generation |
 | Pillow | Image processing |
 | python-dotenv | Environment management |
-...
 
-<details>
-<summary><b>Validation Workflow</b></summary>
+**Validation Workflow**
 
 The validator agent checks:
 - brightness
@@ -39,7 +36,6 @@ If validation fails:
 2. prompt is refined
 3. image is regenerated
 
-</details>
 
 ## Workflow
 
