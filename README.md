@@ -92,7 +92,7 @@ You can run the engine directly from a terminal execution script or import it in
 from thumbnail_generate_validate import YTThumbnail
 
 # Initialize the state machine with your video topic
-yt = YTThumbnail(user_prompt="mickey mouse rowing a boat")
+yt = YTThumbnail(user_prompt="Local LLMs Are Now Better Than ChatGPT (Step-by-Step Hardware Guide)")
 
 # Execute the automated generation, validation, and correction loop
 yt.generate_thumbnail()
